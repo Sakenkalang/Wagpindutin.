@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class GetUserInput {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner myObj = new Scanner(System.in);
+
+	    System.out.println("Enter FirstName");
+	    // String input
+	    String fname = myObj.nextLine();
+	    
+	    System.out.println("Enter LastName");
+	    String lname = myObj.nextLine();
+	    
+	    // Numerical input
+	    System.out.println("Enter Age");
+	    int age = myObj.nextInt();
+	    
+	    System.out.println("Enter Payment");
+	    double pay = myObj.nextDouble();
+
+	    // Output input by user
+	    System.out.println("First name: " + fname);
+	    System.out.println("Last name: " + lname); 
+	    
+	    System.out.println("Age: " + age); 
+	    System.out.println("Salary: " + pay); 
+		
+	}
+
+}
